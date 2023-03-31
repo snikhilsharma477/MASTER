@@ -23,19 +23,6 @@ public void ValidateLoging() throws IOException {
 
         initialize();
 
-    ProductCatalog catalog= new ProductCatalog();
-    catalog.clickonCatlog();
-
-    DashBoard board=new DashBoard();
-    board.clickOnProducteButton();
-    board.clickOnaddNewProductButton();
-    TestUtilities.readingExcelFile();
-        board.enterProductName(TestUtilities.productName);
-        board.enterMegaTitleName(TestUtilities.megaTitle);
-
-
-
-
     }
 
 }
