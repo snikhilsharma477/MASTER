@@ -18,11 +18,8 @@ import static TestUtility.TestUtilities.readingExcelFile;
 
 
 public class TC1VerifyTheOpenCartLoggin  extends TestBase {
-
-
     @Test
 public void ValidateLoging() throws IOException {
-// login
 
         initialize();
 
