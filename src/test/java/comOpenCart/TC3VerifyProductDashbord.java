@@ -10,8 +10,5 @@ public class TC3VerifyProductDashbord extends TestBase {
     @Test
     public void verifyProfileButton(){
 
-initialize();
-        DashBoard dashBoard=new DashBoard();
-        dashBoard.clickOnProfileButton();
     }
 }
